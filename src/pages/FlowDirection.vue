@@ -89,8 +89,8 @@ export default {
         },
         options() {
             return [
+                { label: 'Both Way', value: 'option2' },
                 { label: `${this.selectedOption.label} to ${this.selectedOption2.label}`, value: 'option1' },
-                { label: 'Both', value: 'option2' },
                 { label: `${this.selectedOption2.label} to ${this.selectedOption.label}`, value: 'option3' }
             ];
         },
