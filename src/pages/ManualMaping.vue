@@ -1,6 +1,5 @@
 <template>
     <div>
-        <h2 class="text-3xl mb-5">Field mapping</h2>
         <section class="container px-4 mx-auto  mb-10 bg-white p-2 mt-5 rounded-md" style="width: 47rem;">
             <div class="flex flex-col">
                 <div class="mb-5">

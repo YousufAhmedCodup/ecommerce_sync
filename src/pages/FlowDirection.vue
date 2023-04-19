@@ -1,6 +1,6 @@
 <template>
     <div class="container mx-auto">
-        <h2 class="text-3xl">Flow direction & Frequency</h2>
+        <h2 class="text-3xl text-center">Flow direction & Frequency</h2>
         <div class="mt-3 relative flex flex-col rounded-xl items-center justify-between">
             <div class="mt-3 relative flex items-center justify-between gap-32" href="#">
                 <div class="flex items-center gap-5">
@@ -61,7 +61,7 @@
             </div>
         </div>
         <div class="flex flex-col justify-center gap-5 items-center">
-            <h2 class="mt-10 text-xl">Choose Your Preferred Data Sync Frequency
+            <h2 class="mt-10 text-xl">Sync Frequency
             </h2>
             <div role="combobox" aria-expanded="false" aria-haspopup="listbox" aria-labelledby="downshift-1-label"
                 class="sc-jIRcFI diViob sc-jFmBXp hxjPJw">

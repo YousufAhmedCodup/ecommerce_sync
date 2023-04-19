@@ -2,7 +2,7 @@
     <div>
         <div class="sc-nbcfT ikXjjo"
             style="box-sizing: border-box; position: relative; margin-left: auto; margin-right: auto; padding-left: 16px; padding-right: 16px; max-width: 1216px;">
-            <h2 class="text-3xl mb-10">Choose your flow services</h2>
+            <h2 class="text-3xl mb-10 text-center">Choose your flow services</h2>
             <div
                 style="margin-left: 0px; margin-right: 0px; display: flex; flex-grow: 0; flex-shrink: 0; align-items: start; justify-content: flex-start; flex-flow: row wrap; flex-direction: column; gap: 52px;">
                 <div

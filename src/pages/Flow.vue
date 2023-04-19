@@ -39,7 +39,8 @@
                             <!-- line -->
                             <div class="w-12 h-6 bg-gray-400 rounded-full shadow-inner"></div>
                             <!-- dot -->
-                            <div class="dot absolute w-6 h-6 bg-white rounded-full shadow -left-1 -top-1 transition"></div>
+                            <div class="dot absolute w-6 h-6 bg-white top-0 rounded-full shadow -left-1 -top-1 transition">
+                            </div>
                         </div>
                         <!-- label -->
                         <div class="ml-3 text-gray-700 font-medium">
@@ -103,6 +104,41 @@
                     </tr>
                 </thead>
                 <tbody role="rowgroup">
+                    <tr v-if="selectedOption != {}">
+                        <td>03 Apr | 11:24:45 AM</td>
+                        <td>Create</td>
+                        <td>Comments</td>
+                        <td>Success</td>
+                        <td>https://github.com/Yousuf</td>
+                    </tr>
+                    <tr v-if="selectedOption != {}">
+                        <td>03 Apr | 11:24:45 AM</td>
+                        <td>Create</td>
+                        <td>Comments</td>
+                        <td>Success</td>
+                        <td>https://github.com/Yousuf</td>
+                    </tr>
+                    <tr v-if="selectedOption != {}">
+                        <td>03 Apr | 11:24:45 AM</td>
+                        <td>Create</td>
+                        <td>Comments</td>
+                        <td>Success</td>
+                        <td>https://github.com/Yousuf</td>
+                    </tr>
+                    <tr v-if="selectedOption != {}">
+                        <td>03 Apr | 11:24:45 AM</td>
+                        <td>Create</td>
+                        <td>Comments</td>
+                        <td>Success</td>
+                        <td>https://github.com/Yousuf</td>
+                    </tr>
+                    <tr v-if="selectedOption != {}">
+                        <td>03 Apr | 11:24:45 AM</td>
+                        <td>Create</td>
+                        <td>Comments</td>
+                        <td>Success</td>
+                        <td>https://github.com/Yousuf</td>
+                    </tr>
                     <tr v-if="selectedOption != {}">
                         <td>03 Apr | 11:24:45 AM</td>
                         <td>Create</td>

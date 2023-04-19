@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="mx-auto max-w-lg text-center">
-            <h1 class="text-2xl font-bold sm:text-3xl">Connect Your Services</h1>
+            <h2 class="text-3xl mb-10 text-center">Connect Your Services</h2>
         </div>
         <div class="flex justify-around items-center ">
             <div class="flex min-h-full items-center justify-center py-12 px-4 sm:px-6 lg:px-8">

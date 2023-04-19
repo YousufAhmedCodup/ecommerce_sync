@@ -11,8 +11,8 @@
               <div>
                 <a class="text-xl cursor-pointer -mb-px  p-4 text-black font-normal" v-on:click="activetab = '1'"
                   :class="[activetab === '1' ? 'active' : '']" @click="scrollToTop()">All</a>
-                <a class="text-xl cursor-pointer -mb-px  p-4 text-black font-normal" v-on:click="activetab = '2'"
-                  :class="[activetab === '2' ? 'active' : '']" @click="scrollToTop()">From workflows</a>
+                <!-- <a class="text-xl cursor-pointer -mb-px  p-4 text-black font-normal" v-on:click="activetab = '2'"
+                  :class="[activetab === '2' ? 'active' : '']" @click="scrollToTop()">From workflows</a> -->
               </div>
               <div class="flex gap-10">
                 <div class="relative text-gray-600 mb-10">
@@ -233,10 +233,11 @@ export default {
 }
 </script>
 <style scoped>
-.active {
+/* .active {
   transition: all .2s;
   box-shadow: 0px 22px 15px -18px #a3a3a3;
-}
+  border-bottom: 1px solid #63b3ed;
+} */
 
 .tabs {
   display: flex;
