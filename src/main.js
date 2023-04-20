@@ -16,6 +16,7 @@ import DashboardLaunch from '@/pages/Launch'
 import DashboardFlow from '@/pages/Flow'
 import DashboardWizard from '@/pages/Wizard'
 import Dashboardnews from '@/pages/news'
+import DashboardviewFlow from '@/pages/FlowList'
 
 import store from './store'
 
@@ -43,6 +44,7 @@ const routes = [
       { path: 'flow', name: 'DashboardFlow', component: DashboardFlow },
       { path: 'wizard', name: 'DashboardWizard', component: DashboardWizard },
       { path: 'news', name: 'Dashboardnews', component: Dashboardnews },
+      { path: 'view-flow', name: 'DashboardviewFlow', component: DashboardviewFlow },
     ]
   }
 ]

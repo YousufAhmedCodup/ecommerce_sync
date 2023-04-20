@@ -15,7 +15,7 @@
                                         </span>
                                     </div>
                                     <div style="border: 1px solid #cbcbcb; padding: 9px 38px 7px; border-radius: 15px;"
-                                        class="sc-bcXHqe gfeINC" v-if="selectedOptionFlows.label != 'Both'">
+                                        class="sc-bcXHqe gfeINC" v-if="selectedOptionFlows.label != 'Both Way'">
                                         <div>
                                             <div class="sc-bcXHqe aFZJk">
                                                 <div class="sc-bcXHqe cQdKma">
@@ -102,9 +102,9 @@
                                             </div>
                                         </div>
                                         <!--  -->
-                                        <img v-if="selectedOptionFlows.label === 'Both'" class="w-16"
+                                        <img v-if="selectedOptionFlows.label === 'Both Way'" class="w-16"
                                             src="https://cdn-icons-png.flaticon.com/512/545/545680.png" alt="">
-                                        <img v-if="selectedOptionFlows.label === 'Both'" class="w-16"
+                                        <img v-if="selectedOptionFlows.label === 'Both Way'" class="w-16"
                                             src="https://cdn-icons-png.flaticon.com/512/2989/2989981.png" alt="">
                                         <img v-else class="w-16"
                                             src="https://cdn-icons-png.flaticon.com/512/2989/2989981.png" alt="">
@@ -196,7 +196,7 @@
                                         </div>
                                     </div>
                                     <div style="border: 1px solid #cbcbcb; padding: 9px 38px 7px; border-radius: 15px;"
-                                        class="sc-bcXHqe gfeINC" v-if="selectedOptionFlows.label == 'Both'">
+                                        class="sc-bcXHqe gfeINC" v-if="selectedOptionFlows.label == 'Both Way'">
                                         <div>
                                             <div class="sc-bcXHqe aFZJk">
                                                 <div class="sc-bcXHqe cQdKma">
@@ -246,7 +246,7 @@
                                             </div>
                                         </div>
                                         <!--  -->
-                                        <img v-if="selectedOptionFlows.label === 'Both'" class="w-16"
+                                        <img v-if="selectedOptionFlows.label === 'Both Way'" class="w-16"
                                             src="https://cdn-icons-png.flaticon.com/512/2989/2989981.png" alt="">
                                         <!--  -->
                                         <div>
@@ -315,7 +315,7 @@
                                         <news />
                                     </div>
                                     <div style="border: 1px solid #cbcbcb; padding: 9px 38px 7px; border-radius: 15px;"
-                                        class="sc-bcXHqe gfeINC mt-10" v-if="selectedOptionFlows.label == 'Both'">
+                                        class="sc-bcXHqe gfeINC mt-10" v-if="selectedOptionFlows.label == 'Both Way'">
                                         <div>
                                             <div class="sc-bcXHqe aFZJk">
                                                 <div class="sc-bcXHqe cQdKma">
@@ -377,7 +377,7 @@
                                             </div>
                                         </div>
                                         <!--  -->
-                                        <img v-if="selectedOptionFlows.label === 'Both'" class="w-16"
+                                        <img v-if="selectedOptionFlows.label === 'Both Way'" class="w-16"
                                             src="https://cdn-icons-png.flaticon.com/512/2989/2989981.png" alt="">
                                         <!--  -->
                                         <div>
@@ -431,7 +431,7 @@
 
                                         </div>
                                     </div>
-                                    <div v-if="selectedOptionFlows.label === 'Both'">
+                                    <div v-if="selectedOptionFlows.label === 'Both Way'">
                                         <news />
                                     </div>
                                 </thead>
